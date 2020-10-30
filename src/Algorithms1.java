@@ -14,11 +14,22 @@ public class Algorithms1 {
     public static void main(String[] args) {
         // exampleOfPredictableRandomNumber();
 
+        // Algo 1
         System.out.println("Random boy name: " + randomBoyName());
         System.out.println("Random girl name: " + randomGirlName());
         System.out.println("Random name: " + randomName());
         System.out.println("Random character: " + randomCharacter());
         System.out.println("Head or tails: " + headsOrTails());
+
+        // Algo 2
+        System.out.println("\nLinear search for number '977': ");
+        Algorithms2.linearSearchNumbers1000();
+        System.out.println("Linear search for name 'Viking': ");
+        Algorithms2.linearSearchBoyNames();
+        System.out.println("Binary search for number '977': ");
+        Algorithms2.binarySearchNumbers1000();
+        System.out.println("Binary search for name 'Viking': ");
+        Algorithms2.binarySearchBoyNames();
 
     }
 
